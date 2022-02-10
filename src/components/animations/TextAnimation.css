@@ -1,0 +1,15 @@
+.wrapper{
+  display: inline-block;
+  transition: transform 0.5s ease;
+}
+.span{
+  display: inline-block;
+}
+.wrapper:hover > .span{
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+
+
+

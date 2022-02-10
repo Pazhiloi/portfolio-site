@@ -1,0 +1,19 @@
+.footer{
+  padding: 80px 0;
+}
+.footer__title{
+  margin: 0 auto 50px;
+}
+.footer__items{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__item > a > .MuiSvgIcon-root{
+  font-size: 50px;
+  transition: transform 0.5s ease;
+}
+.footer__item:hover > a > .MuiSvgIcon-root{
+  transform: scale(1.5) rotate(360deg);
+}
